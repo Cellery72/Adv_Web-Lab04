@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+        <% include ../views/shared/header %>
+    </header>
+      <main style="padding-top:50px;">
+        <div class="jumbotron">
+            <h1 class="text-center"><%= title %></h1>
+            <p style="padding-top:50px;"><%= name %> is an only child (that he's aware of) who is currently studying Computer 
+            Programming at Georgian College in Barrie, Ontario! <%= name %> completed his first co-op with the OPP 
+            and currently works with them as a Programmer Analyst part-time. </p>
+        </div>
+    </main>
+    <footer>
+        <% include ../views/shared/footer %>
+    </footer>
+  </body>
+</html>

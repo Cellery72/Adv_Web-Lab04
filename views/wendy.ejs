@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+        <% include ../views/shared/header %>
+    </header>
+      <main style="padding-top:50px;">
+        <div class="jumbotron">
+            <h1 class="text-center"><%= title %></h1>
+            <p style="padding-top:50px;"><%= name %> is the mother of Justin and has been married to 
+            Allan for a lot longer than Justin has been alive. Commonly reffered to as the 'W' in A&W, <%= name %> enjoys
+            gardening and going camping quite often!</p>
+        </div>
+    </main>
+    <footer>
+        <% include ../views/shared/footer %>
+    </footer>
+  </body>
+</html>
